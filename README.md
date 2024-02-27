@@ -62,11 +62,47 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+# Routes and Controllers with Nest.js
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+This project demonstrates the use of routes and controllers in the Nest.js framework, focusing on implementing basic CRUD operations (Create, Read, Update, Delete) to manage fictitious users. The project serves as a practical example to understand how to work with route parameters and how to structure controllers in a Nest.js application.
+
+## Exercise Example
+
+- **Objective:** Implement a route that accepts parameters and returns a JSON object with the received parameters.
+
+## Micro Project
+
+- **Objective:** Create a controller to manage user requests, including routes to list, add, and remove fictitious users.
+
+## Prerequisites
+
+Before starting, make sure you have Node.js installed on your system. If not, you can download and install it from the [official Node.js website](https://nodejs.org/).
+
+## Project Setup and Testing
+
+```bash
+# Clone the repository
+git clone <REPOSITORY_URL>
+
+# Navigate to the project directory
+cd <PROJECT_NAME>
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run start
+
+# Test the Routes with cURL
+
+## List Users
+curl http://localhost:3000/users
+
+## Add a User
+curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"name":"John Doe","email":"john@example.com"}'
+
+## Remove a User
+curl -X DELETE http://localhost:3000/users/1
 
 ## License
 
