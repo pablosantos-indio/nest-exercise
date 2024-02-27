@@ -1,5 +1,3 @@
-echo "# Hello-Nest
-
 ## About The Project
 
 Welcome to \`Hello-Nest\` - your starting point into the Nest.JS universe! This project was created to demonstrate the fundamental concepts of Nest.JS through a very simple yet effective example: a \"Hello, World!\" API. By navigating the straightforward structure of this project, you'll get a taste of the power and elegance Nest.JS offers for building efficient, reliable, and scalable server-side applications.
@@ -67,4 +65,3 @@ This project is licensed under the MIT License - see the \`LICENSE\` file for de
 PS Indio - [https://www.linkedin.com/in/pablosantos-indio/](https://www.linkedin.com/in/pablosantos-indio/)
 
 Project Link: [https://github.com/pablosantos-indio/nest-exercise](https://github.com/pablosantos-indio/nest-exercise)
-" > README.md
